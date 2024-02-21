@@ -49,6 +49,7 @@ ul li{
 .search-box img{
           width: 20px;
           cursor: pointer;
+
 }
 .dark .navbar{
           background: #0000;
@@ -56,4 +57,10 @@ ul li{
 }
 .dark .search-box{
           background: #fff;
+}
+.dark .search-box input{
+          background: #fff;
+}
+.dark .search-box input::placeholder{
+          color: #242424;
 }
